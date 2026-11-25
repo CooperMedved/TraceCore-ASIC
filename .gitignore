@@ -1,0 +1,49 @@
+# Simulation outputs
+*.vcd
+*.fst
+*.vvp
+simv
+simv.daidir/
+csrc/
+verilator_obj/
+obj_dir/
+work/
+transcript
+vsim.wlf
+
+# Generated implementation outputs
+build/
+runs/
+results/
+logs/
+*.log
+*.jou
+*.ddc
+*.svf
+*.dlib/
+*.ndm/
+
+# Local technology and library data
+pdk/
+pdks/
+libs/
+eda-libs/
+*.db
+*.lib
+*.lef
+*.gds
+*.oas
+*.tluplus
+
+# Local configuration
+.env
+.venv/
+__pycache__/
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
